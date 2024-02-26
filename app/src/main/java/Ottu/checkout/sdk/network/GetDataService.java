@@ -1,7 +1,7 @@
 package Ottu.checkout.sdk.network;
 
-import Ottu.model.GenerateToken.CreatePaymentTransaction;
-import Ottu.model.fetchTxnDetail.RespoFetchTxnDetail;
+import com.Ottu.model.GenerateToken.CreatePaymentTransaction;
+import com.Ottu.model.fetchTxnDetail.RespoFetchTxnDetail;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.Headers;

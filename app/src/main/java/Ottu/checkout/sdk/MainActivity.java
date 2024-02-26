@@ -27,23 +27,23 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import Ottu.model.GenerateToken.CreatePaymentTransaction;
-import Ottu.model.SocketData.SocketRespo;
-import Ottu.model.fetchTxnDetail.RespoFetchTxnDetail;
+import com.Ottu.model.GenerateToken.CreatePaymentTransaction;
+import com.Ottu.model.SocketData.SocketRespo;
+import com.Ottu.model.fetchTxnDetail.RespoFetchTxnDetail;
 
 import Ottu.checkout.sdk.network.GetDataService;
 
 
-import Ottu.ui.Ottu;
+import com.Ottu.ui.Ottu;
 import Ottu.payment.sdk.R;
-import Ottu.ui.StcPayActivity;
-import Ottu.util.StcPayButton;
+import com.Ottu.ui.StcPayActivity;
+import com.Ottu.util.StcPayButton;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
 import static Ottu.checkout.sdk.network.RetrofitClientInstance.getRetrofitInstance;
-import static Ottu.util.Constant.OttuPaymentResult;
+import static com.Ottu.util.Constant.OttuPaymentResult;
 
 
 public class MainActivity extends AppCompatActivity  {
