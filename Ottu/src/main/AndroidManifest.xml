@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="Ottu">
+    package="com.Ottu">
 
     <application>
 
         <activity
-            android:name="Ottu.ui.WebPaymentActivity"
+            android:name="com.Ottu.ui.WebPaymentActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:label="@string/title_activity_web_payment"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name="Ottu.ui.PaymentActivity"
+            android:name="com.Ottu.ui.PaymentActivity"
             android:exported="false"
             android:supportsRtl="true"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name ="Ottu.ui.StcPayActivity"
+        <activity android:name ="com.Ottu.ui.StcPayActivity"
             android:supportsRtl="true"
             android:exported="false"
             android:theme="@style/Theme.Transparent"/>
